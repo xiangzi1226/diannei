@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face { 
+  font-family: "冬青黑体"; 
+  src:url(../font/dongqingW3.ttf); 
+} 
+body{
+    background: #f8f8f8;
+    font-family: "冬青黑体";
+}
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+.containerBox{
+	position:relative;
+	
+}
+.basicInfor{
+    background:#ffffff;
+    height:3.25rem;
+
+   padding:0.4rem;
+    padding-left:0.32rem;
+}
+.basicInfor .contentHeader{
+    color:#666666;
+    font-size:0.4rem;
+    float:left;
+}
+.basicInfor .contentFooter{
+    color:#222222;
+    font-size:0.4rem;
+    margin-left:0.2rem;
+    float:left;
+}
+.basicInfor .firstLine{
+    margin-top:0.4rem;
+    float:left;
+}
+.basicInfor .informationLine{
+    margin-top:0;
+    width:8rem;
+}
+.basicInfor .firstLine .leftPart{
+    width:6.13rem;
+}
+.basicInfor .firstLine .leftPart,.basicInfor .firstLine .rightPart{
+    float:left;
+}
+.healthyInfor{
+    height:1.334rem;
+    display:block;
+    line-height:1.334rem;
+    background: #ffffff url(../img/back_icon2@2x.png) no-repeat 9.48rem center;
+    margin-top:0.267rem;
+    padding-left:0.32rem;
+    font-size:0.4rem;
+    color:#222222;
+}
+.medicalImage{
+margin-top:0;
+}
+.medicalInformation{
+    border-bottom:0.014rem solid #f8f8f8;
+}
+.deleteBtn{
+	/*display: block;*/
+    width:8.6rem;
+    height: 1.12rem;
+    line-height: 1.12rem;
+    background: #27B4ED;
+    font-size: 0.4rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.2rem;
+    margin-top: 1.33rem;
+    margin-left: 0.7rem;
+}
+.container2{
+	width:10rem;
+	height:16.72rem;
+	background:rgba(0,0,0,0.4);
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:100;
+	display:none;	
+}
+.contain{
+	position:absolute;
+    width:8.83rem;
+    height:4.83rem;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    background:#FFFFFF;
+    border-radius: 0.2rem;
+}
+.contain .warm{
+	text-align:center;
+	font-size:0.48rem;
+	font-weight:bold;
+	color:#222222;
+	margin-top:0.61rem;
+	margin-bottom:1rem;
+}
+.contain .warmWord{
+     text-align:center;
+     color:#222222;
+     font-size:0.4rem;	
+     margin-bottom:0.85rem;
+}
+.contain .warmBtn{
+     height:1.2rem;
+     border-top:0.02rem solid #f3f3f3;
+     padding:0.12rem 0;
+}
+.contain .warmBtn .deleteBtn2{
+    display: block;
+    width:4.41rem;
+    height: 0.96rem;
+    line-height: 0.96rem;
+    /*background: #27B4ED;*/
+    font-size: 0.48rem;
+    color: #222222;
+    text-align: center;
+    /*border-radius: 0.2rem;*/
+    float:left; 
+}
+.contain .warmBtn .backBtn{
+    display: block;
+    width:4.4rem;
+    height: 0.96rem;
+    line-height: 0.96rem;
+    /*background: #27B4ED;*/
+    font-size: 0.48rem;
+    color: #222222;
+    text-align: center;
+    /*border-radius: 0.2rem;*/
+    float:left;
+}
+.contain .warmBtn .borderRight{
+	 width:0.02rem;
+	 background:#f3f3f3;
+	 height:0.96rem;
+	 float:left;
+}

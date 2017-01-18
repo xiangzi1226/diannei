@@ -1,0 +1,163 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+@font-face { 
+  font-family: "冬青黑体"; 
+  src:url(../font/dongqingW3.ttf); 
+} 
+body{
+	font-family: "冬青黑体";
+	background: #f8f8f8;
+}
+img{
+	border: none;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+html,body{
+	width:100%;
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
+	
+}
+.patientDetail{
+
+	width:100%;
+	background:#ffffff;
+}
+.patientDetail .detailDate{
+	font-size: 0.267rem;
+    height: 0.534rem;
+    background: #f8f8f8;
+    line-height: 0.534rem;
+    padding-left: 0.32rem;
+    color: #999999;
+}
+
+.patientContent{
+        margin-left:0.614rem;
+        height:1.2rem;
+        padding-top:0.4rem;
+        
+}
+.patientContent .circle{
+	width:0.13rem;
+	height:0.13rem;
+	border-radius:50%;
+	background:#27B4ED;
+	float:left;
+	margin-top:0.19rem;
+}
+.patientContent .patientName{
+          color:#222222;
+          font-size:0.35rem;
+          margin-left:0.4rem;
+}
+.patientContent .patientAge{
+          color:#999999;
+          font-size:0.33rem;
+
+}
+.patientContent .patientDate{
+	float:right;
+           margin-top:0.13rem;
+           margin-right:0.32rem;
+             font-size:0.32rem;
+    color:#aeaeae;
+}
+.patientWord{
+	margin-left:1.144rem;
+	height:1.334rem;
+	margin-right:0.8rem;
+}
+
+.illnessTitle{	
+	color:#37C5FF;
+	font-size:0.33rem;
+	font-weight:normal;	
+	display:inline;
+}
+.illnessDetail{
+	color:#666666;
+	font-size:0.32rem;
+	line-height:0.534rem;
+	width:8rem;
+	overflow:hidden;
+	text-overflow:ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;    
+}
+.line{
+	margin:0 auto;
+	width:9.467rem;
+	height:0.014rem;
+	background:#f8f8f8;
+}
+.detailInfor .hospital{
+
+          width:10rem;
+          line-height:1.334rem;
+          background:#ffffff;
+          font-size:0.35rem;
+
+}
+.detailInfor .hospital .doctorInfor{
+	text-align:center;
+}
+.inforBottom{
+	width:8.8rem;
+	height:0.02rem;
+	background:#f8f8f8;
+	margin:0 auto;
+	z-index:10;
+}
+.hospitalPhoto{
+	margin-left:0.507rem;
+	margin-right:0.267rem;
+	float:left;
+	margin-top:0.5rem;
+}
+.officePhoto{
+	margin-top:0.6rem;
+}
+.doctorInfor{
+        color:#27B4ED;
+        font-size:0.34rem;
+        margin-left:2.5rem;
+}
+.patientBox2{
+	width:10rem;
+	height:2.56rem;
+	position: relative;
+	background:#ffffff;
+	overflow:hidden;
+
+}
+.patientItem2{
+	position: absolute;
+	width:12.67rem;
+	left:0;
+	top:0;
+}
+
+.patientWrap{
+	float:left;
+	width:10rem;
+	height:2.56rem;
+}
+.medicalRecordstBtn{
+	width:2.67rem;
+	color: #fff;
+	font-size: 0.48rem;
+	background:#ff3838;
+	float:left;
+	height:2.56rem;
+}

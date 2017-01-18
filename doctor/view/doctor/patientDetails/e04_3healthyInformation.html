@@ -1,0 +1,48 @@
+<title>健康信息</title>
+<div class="inforTop">
+        <div class="leftTitle">
+               <div class="wrap">
+                        民族
+                        <span class="rightContent nationData">{{data.racename}}</span>
+                    
+               </div>
+
+        </div>
+</div>
+<div class="inforMiddle">
+        <a href="#/heightWeight" class="inforDetails patientHeight" style="text-decoration: none;outline:none;border:none;">
+               <div class="wrap">身高<span class="rightContent heightData">{{data.height}}cm</span></div>
+        </a>
+        <a href="#/heightWeight" class="inforDetails patientWeight" style="text-decoration: none;outline:none;border:none;">
+                <div class="wrap">体重<span class="rightContent weightData">{{data.weight}}kg</span></div>
+        </a>
+        <div class="inforDetails patientBmi">
+               <div class="wrap">BMI<span class="rightContent bmiData">{{data.bmi}}</span></div>
+        </div>
+</div>
+<div class="inforBottom">
+        <div class="leftTitle">
+               <div class="wrap">是否吸烟<span class="rightContent smokeData">{{issmoking}}</span></div>
+        </div>
+        <div class="leftTitle">
+               <div class="wrap">是否已戒烟<span class="rightContent abandonData">是</span></div>
+        </div>
+        <div class="leftTitle">
+               <div class="wrap">吸烟时长<span class="rightContent timeData">{{data.smokinglength}}年</span></div>
+        </div>
+        <div class="leftTitle">
+               <div class="wrap">戒烟时长<span class="rightContent abandonTime">{{data.nosmokinglength}}年</span></div>
+        </div>
+        <div class="leftTitle">
+               <div class="wrap">日均吸烟数量<span class="rightContent smokeNumber">{{data.smokecountperday}}根</span></div>
+        </div>
+        <div class="leftTitle">
+               <div class="wrap">是否患有慢性肺部疾病<span class="rightContent illnessData">是</span></div>
+        </div>
+        <div class="leftTitle">
+               <div class="wrap">疾病名称<span class="rightContent illnessName">{{diseasename}}</span></div>
+        </div>
+        <div class="leftTitle">
+               <div class="wrap">是否患有过其他癌症<span class="rightContent othersIllness">是</span></div>
+        </div>
+</div>

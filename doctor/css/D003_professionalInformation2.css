@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face { 
+  font-family: "冬青黑体"; 
+  src:url(../font/dongqingW3.ttf); 
+} 
+body{
+    width: 100%;
+    height: 100%;
+    background: #f8f8f8;
+    font-family: "冬青黑体";
+    overflow-y: scroll;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+    display:block;
+}
+ul,li{
+    list-style: none;
+}
+.firstForm{
+    height:3.824rem;
+    background:#ffffff;
+    width:100%;
+    padding-left:0.32rem;
+}
+.firstForm .formTitle{
+    height:1.13rem;
+    line-height:1.13rem;
+    font-size:0.34rem;
+    color:#666666;
+}
+.firstForm .formTitle .formCircle{
+    height:0.534rem;
+    width:0.534rem;
+    border-radius: 50%;
+   border:0.014rem solid #999999;
+   float:left;
+   margin:0.31rem 0.267rem 0 0.067rem;
+   position: relative;
+}
+.firstForm .formTitle .formCircle .rightImg1,.firstForm .formTitle .formCircle .rightImg2{
+    width:0.534rem;
+    height:0.534rem;
+    position: absolute;
+    left:0;
+    top:-0.02rem;
+}
+.formPhoto{
+    overflow:hidden;
+    height:2.68rem;
+    border-bottom:0.014rem solid #f8f8f8;
+}
+.formPhoto .pictureBox{
+    width:4.667rem;
+    float:left;
+
+}
+.formPhoto .pictureBox .idCard{
+       width:1.86rem;
+       height:1.86rem;
+}
+.formPhoto .plusBox{
+    float:right;
+    position: relative;
+
+}
+.formPhoto .plusBox .mask{
+      width:4.667rem;
+      height:1.86rem;
+      position: absolute;
+      top:0;
+      left:0;
+      z-index:100;
+}
+
+.formPhoto .plusBox .plus{
+     width:1.86rem;
+       height:1.86rem;
+}
+.formPhoto .pictureBox .pictureOne{
+    margin-right:0.4rem;
+    float:left;
+}
+.formPhoto .pictureBox .pictureTwo{
+     margin-right:0.53rem;
+      float:left;
+}
+.formPhoto .sideLine{
+    float:left;
+    height:1.65rem;
+    width:0.028rem;
+    background:#f8f8f8;
+    margin-top:0.107rem;
+}
+.formPhoto .plusBox{
+        width:4.667rem;
+        float:left;
+}
+.formPhoto .plusBox .firstPlus{
+    margin-left:0.53rem;
+    float:left;
+    margin-right:0.4rem;
+    position:relative;
+}
+.formPhoto .plusBox .secondPlus{
+      float:left;
+      position:relative;
+}
+.formPhoto .plusBox .zuile{
+	width: 1.86rem;
+    height: 1.86rem;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:500;
+	display:none;
+}
+.formPhoto .plusBox .fule{
+	z-index:1000;
+	position:absolute;
+	top:0;
+	right:0;
+	width:0.267rem;
+	height:0.267rem;
+	display:none;
+}
+.formPhoto .pictureWord{
+    font-size:0.32rem;
+    color:#999999;
+    margin-top:0.267rem;
+    float:left;
+}
+.formPhoto .pictureBox .wordOne{
+      margin-left:1.76rem;
+}
+.formPhoto .plusBox .wordTwo{
+      margin-left:2rem;
+}
+.explain{
+    font-size:0.267rem;
+    color:#aeaeae;
+    line-height:0.4rem;
+    padding-left:0.32rem;
+    padding-right:0.18rem;
+    margin-top:0.267rem;
+}
+.btnBox{
+     width:100%;
+      padding-top:0.8rem;
+}
+.btnBox .submitBtn{
+    height:1.12rem;
+    line-height:1.12rem;
+    width:8.72rem;
+    text-align:center;
+    display:block;
+    color:#ffffff;
+    font-size:0.4rem;
+    background:#27B4ED;
+    border-radius: 0.2rem;
+    margin:0 auto;
+}
+.lastBtn{
+     height:1.12rem;
+    line-height:1.12rem;
+    width:8.72rem; 
+     text-align:center;
+    display:block;
+    color:#27B4ED;
+    border:0.014rem solid #27B4ED;
+    border-radius:0.2rem;
+    margin:0 auto;
+    margin-top:0.4rem;
+    font-size:0.4rem;
+}
+.bottomWord{
+
+    text-align:center;
+    font-size:0.267rem;
+    color:#aeaeae;
+    line-height:0.4rem;
+    width:8rem;
+    margin:0 auto;
+       margin-top:2.37rem;
+}
+.alert{
+    width: 3.07rem;
+    height: 1.6rem;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    left: 3.8rem;
+    top: 5rem;
+    display: none;
+    border-radius: 0.13rem;
+}
+.alert .finishInfor{
+	line-height: 1.6rem;
+    height: 1.6rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.35rem;
+}
+

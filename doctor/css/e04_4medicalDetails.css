@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face { 
+  font-family: "冬青黑体"; 
+  src:url(../font/dongqingW3.ttf); 
+} 
+body{
+	width: 100%;
+	height: 100%;
+	background: #f8f8f8;
+	font-family: "冬青黑体";
+	overflow-y: scroll;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+ul,li{
+	list-style: none;
+}
+.UCaseBox{
+	background: #fff;
+	border-bottom: 1px solid #f3f3f3;
+	border-top: 1px solid #f3f3f3;
+	margin-bottom: 0.27rem;
+}
+
+.UCaseBox .UcaseTitle{
+	height: 1.334rem;
+	line-height: 1.334rem;	
+	font-size: 0.454rem;
+	padding-left: 0.32rem;
+	color: #222222;
+	border-bottom: 1px solid #f3f3f3;
+	background:#ffffff url(../img/back_icon2@2x.png) no-repeat 9.48rem center;
+	background-size:0.2rem 0.346rem;
+}
+.UCaseBox .UcaseTitle a{
+	color: #999999;
+	font-size: 0.347rem;
+	float:right;
+	margin-right:0.786rem;
+}
+.casesContent1_1 img{
+	width: 2rem;
+	height: 2rem;
+	float:left;
+	margin-right:0.5rem;
+	margin-top:0.2rem;
+}
+.casesContent1_1 img:last-of-type{
+	margin-right:0;
+}
+.casesContent1_1{
+	/*margin-top: 0.35rem;
+	padding-left: 0.32rem;*/
+    /*height:6.6rem;*/
+/*	margin-bottom: 0.48rem;*/
+    overflow:hidden;
+}
+
+.casesContent1_1box{
+	float:left;
+}
+.ImageBox1{
+    width:7.5rem;
+    /*height:6.6rem;*/
+     margin:0 1rem 0 1.5rem;
+     /*background:blue;*/
+}
+.ImageBox2{
+    width:7.5rem;
+    /*height:6.6rem;*/
+     margin:0 1rem 0 1.5rem;
+     /*background:blue;*/
+}
+/*.shenm{
+	margin-top:
+}*/
+
+
+
+
+
+
+
+
+
+

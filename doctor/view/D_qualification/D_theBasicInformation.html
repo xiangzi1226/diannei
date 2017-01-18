@@ -1,0 +1,26 @@
+<title>基本信息</title>
+<div>
+	<div class="accountInformationBox">
+		<ul class="accountInformation_list1">
+			<li style="height: 2.6rem;line-height: 2.6rem;border-bottom: 1px solid #f3f3f3;"><p>头像</p><p><img src="img/pho_icon2@2x.png"  ng-click="chooseImage()" class="touxiang"/></p></li>
+			<li><p>姓名</p><input type="text" placeholder="点击输入" id="name"/></li>
+			<li style="border-bottom: 1px solid #f3f3f3;"><p>性别</p><select  style="font-size: 0.4rem;color: #999999;" class="chooseBut"><option>点击选择</option><option>男</option><option>女</option></select></li>
+			<li><p>电话</p><span  style="font-size: 0.4rem;color: #999999;" id="tel">{{data.phone}}</span></li>
+			
+		</ul>
+		
+		<ul class="accountInformation2">
+			<!--<div class="bigCover"></div>-->
+			<a href="" id="next" ng-click="next()">下一步：完善职业信息</a>
+		</ul>
+		
+	</div>
+	<div class="bottomWord">*需要您完成相关的身份认证，才可以使用产品内的相关功能，给您带来不便，还请您谅解！</div>
+	<div class="alert">
+        <p class="finishInfor">请补全信息</p>
+	</div> 
+
+</div>
+
+
+

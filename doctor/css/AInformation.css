@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face { 
+  font-family: "冬青黑体"; 
+  src:url(../font/dongqingW3.ttf); 
+} 
+body{
+	width: 100%;
+	height: 100%;
+	background: #f8f8f8;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+ul,li{
+	list-style: none;
+}
+.accountInformation_list1{
+
+	padding-left: 0.32rem;
+	background: #fff;
+	margin-bottom: 0.26rem;
+}
+.accountInformation_list1 li{
+	border-bottom:0.014rem solid #f8f8f8;
+}
+.accountInformation_list1 .accountTouxiang{
+	float:right;
+	margin-right:0.8rem;
+           margin-top:0.53rem;
+           height:1.6rem;
+           width:1.6rem;
+           border-radius: 50%;
+    
+}
+.accountInformation_list1 li:nth-of-type(1){
+	height: 2.67rem;
+	line-height: 2.67rem;
+	background: url(../img/back_icon2@2x.png) no-repeat 9.16rem center;
+	background-size:0.2rem 0.35rem;
+	color:#222222;
+	font-size:0.45rem;
+
+}
+.accountItem{
+	height:1.34rem;
+	line-height:1.34rem;
+	color:#222222;
+	font-size:0.45rem;
+
+}
+.accountItem .informationItem{
+	float:right;
+	margin-right:0.32rem;
+	color:#666666;
+	font-size:0.4rem;
+}
+.accountInformation_list2{
+	padding-left:0.32rem;
+	
+	background:#fff;
+}
+.accountInformation_list2 .accountPhone{
+border-bottom:0.014rem solid #f8f8f8;	
+}
+.accountInformationBox .saveBtn{
+    display: block;
+    width: 8.6rem;
+    height: 1.12rem;
+    line-height: 1.12rem;
+    background: #27B4ED;
+    font-size: 0.4rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.2rem;
+    margin-top: 1.33rem;
+    margin-left:0.7rem;
+}

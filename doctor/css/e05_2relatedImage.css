@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face { 
+  font-family: "冬青黑体"; 
+  src:url(../font/dongqingW3.ttf); 
+} 
+body{
+    width: 100%;
+    height: 100%;
+    background: #f8f8f8;
+    font-family: "冬青黑体";
+    overflow-y: scroll;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+}
+ul,li{
+    list-style: none;
+}
+.UCaseBox{
+    background: #fff;
+    border-bottom: 1px solid #f3f3f3;
+    border-top: 1px solid #f3f3f3;
+    margin-bottom: 0.27rem;
+}
+.UCaseBox .UcaseDate{
+    height: 1.067rem;
+    line-height: 1.067rem;  
+    font-size: 0.4rem;
+    color: #666666;
+    border-bottom: 1px solid #f3f3f3;
+    text-align: center;
+}
+.casesContent1_1box{
+  overflow:hidden;
+}
+.caseBox{
+	width:7.5rem;
+	margin: 0 1rem 0 1.5rem
+}
+.caseBox img{
+    width: 2rem;
+    height: 2rem;
+    float: left;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem
+}
+.caseBox img:last-of-type{
+    margin-right: 0;
+}
+

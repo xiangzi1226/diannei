@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face { 
+  font-family: "冬青黑体"; 
+  src:url(../font/dongqingW3.ttf); 
+} 
+body{
+	width: 100%;
+	height: 100%;
+	background: #f8f8f8;
+	font-family: "冬青黑体";
+	overflow-y: scroll;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+ul,li{
+	list-style: none;
+}
+.accountInformation_list1{
+	padding-left: 0.32rem;
+	background: #fff;
+	border-bottom: 1px solid #f3f3f3;
+	margin-bottom: 0.26rem;
+
+}
+.accountInformation_list1 a{
+	height: 1.33rem;
+	line-height: 1.33rem;
+           	padding-right:0.32rem;
+	border-bottom: none;
+}
+.accountInformation_list1 a span{
+	font-size: 0.48rem;
+	color:#222222;
+	float:left;
+}
+.accountInformation_list1 .chooseButton{
+	 float:right;
+}
+
+.accountInformation_list1>a:last-of-type{
+	border-bottom: none;  
+}
+/*.accountInformation_list1>li p{
+	font-size: 0.45rem;
+	color:#222222;	
+}
+.accountInformation_list1 li p:nth-of-type(1){
+	float: left;
+}
+.accountInformation_list1 li p:nth-of-type(2){
+	float: right;
+	margin-right: 0.24rem;
+}*/
+.accountInformationBox a{
+	display: block;
+	height: 1.33rem;
+	line-height: 1.33rem;
+	margin: 0 auto;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+.accountInformation2>a{
+	display: block;
+	width: 8.6rem;
+	height:1.12rem;
+	line-height: 1.12rem;
+	background: #27B4ED;
+	font-size: 0.4rem;
+	color: #fff;
+	text-align: center;
+	border-radius: 0.2rem;
+	margin-top: 1.33rem;
+}
+.accountInformation2>a:last-of-type{
+	background: #fff;
+	border: 1px solid #27B4ED;
+	color: #27b4ed;
+	margin-top: 0.32rem;
+}
+.accountInformation_list1 .select{
+	color: #999999;
+	font-size: 0.4rem;
+	float:right;
+            -webkit-appearance: none;  
+           -webkit-tap-highlight-color: #fff;  
+           outline:none;  
+           border:none;
+           height: 1.3rem;
+	line-height: 1.3rem;
+           resize:none;
+           direction:rtl;
+           box-shadow:none
+}
+.bottomWord{
+
+    text-align:center;
+    font-size:0.267rem;
+    color:#aeaeae;
+    line-height:0.4rem;
+    width:8rem;
+    margin:0 auto;
+       margin-top:2.37rem;
+}
+.what{
+    width: 3.07rem;
+    height: 1.6rem;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    left: 3rem;
+    top: 5rem;
+    display: none;
+    border-radius: 0.13rem;
+}
+.what p{
+	text-align:center;
+}
+.what button{
+	width:3.07rem;
+	height:0.6rem;
+	text-align:center;
+	font-size:0.48rem;
+}
+.alert{
+    width: 3.07rem;
+    height: 1.6rem;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    left: 3.8rem;
+    top: 5rem;
+    display: none;
+    border-radius: 0.13rem;
+}
+.alert .finishInfor{
+	line-height: 1.6rem;
+    height: 1.6rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.35rem;
+}
+
+
+

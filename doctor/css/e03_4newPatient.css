@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face { 
+  font-family: "冬青黑体"; 
+  src:url(../font/dongqingW3.ttf); 
+} 
+body{
+    background: #f8f8f8;
+    font-family: "冬青黑体";
+}
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+.addWrap{
+    height:1.334rem;
+      line-height:1.334rem;
+    background:#ffffff;
+    display:block;
+}
+.addWrap .addPhoto{
+    width:0.8rem;
+    height:0.8rem;
+    margin-left:0.32rem;
+    float:left;
+    margin-top:0.267rem;
+}
+.addWrap .addIntrodation{
+    font-size:0.4rem;
+    color:#222222;
+    margin-left:0.267rem;
+    /*padding-top:0.1rem;
+    padding-bottom: 0.1rem;
+    width:8.6rem;*/
+    float:left;
+}
+.firstLetter{
+       height:0.534rem;
+       background:#f8f8f8;
+       padding-left:0.32rem;
+       color:#666666;
+       font-size:0.4rem;
+}
+.letter .addItem{
+    border-bottom:0.014rem solid #F8F8F8;
+}
+.addWrap .description{
+    font-size:0.347rem;
+    color:#AEAEAE;
+     margin-left:0.267rem;
+
+}

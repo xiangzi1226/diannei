@@ -1,0 +1,260 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+@font-face { 
+  font-family: "冬青黑体"; 
+  src:url(../font/dongqingW3.ttf); 
+} 
+img{
+	border: none;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	font-family: "冬青黑体";
+	width:100%;
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
+	background:#f8f8f8;
+}
+.imgagesAssessment1{
+	width: 100%;
+	height: 3.2rem;
+	background: #27b4ed;
+	text-align: center;	
+}
+.imgagesAssessment1>img{
+	margin-top: 0.24rem;
+	margin-bottom: 0.24rem;
+	width: 1.52rem;
+	height: 1.55rem;
+	opacity: 0.5;
+}
+.imgagesAssessmentcontent{
+	padding-left: 0.26rem;
+	padding-right: 0.26rem;
+	width: 9.36rem;
+	border-radius: 0.13rem;
+	margin: 0 auto;
+	margin-top: -1.16rem;
+	background: #fff;
+	box-shadow:  0 0 0.3rem #27B4ED ;
+	padding-top: 0.1rem;
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+}
+.imgagesAssessmentcontent1{
+	border-bottom: 1px solid #f3f3f3;
+	margin-bottom: 0.06rem;
+	position: relative;
+}
+.imgagesAssessmentcontent1 .heartImg{
+	position: absolute;
+	right:0.05rem;
+	top:0.1rem;
+	height:0.53rem;
+	width:0.53rem;
+          z-index:10;
+}
+.imgagesAssessmentcontent1 .heartImg2{
+	position: absolute;
+	right:0.05rem;
+	top:0.1rem;
+	height:0.53rem;
+	width:0.53rem;
+	display:none;
+	z-index:10;
+}
+.imgagesAssessmentcontent1>h3{
+	text-align: center;
+	margin-top: 0.53rem;
+	margin-bottom: 0.2rem;
+	color: #222222;
+	font-size: 0.48rem;
+}
+.imgagesAssessmentcontent1>time{
+	display: block;
+	text-align: right;
+	margin-bottom: 0.13rem;
+	color: #999999;
+	font-size: 0.27rem;
+}
+.imgagesAssessmentcontent2{
+	height: 0.06rem;
+	background: #f3f3f3;
+}
+.imgagesAssessmentcontent2_1{
+	width: 0.27rem;
+	height: 0.27rem;
+	border-radius: 50%;
+	background: #27b4ed;
+	margin-top: 0.39rem;
+	margin-right: 0.27rem;
+	float:left;
+}
+.imgagesAssessmentcontent .hugeTitle{
+	height: 1.067rem;
+	line-height: 1.067rem;
+	border-bottom: 1px solid #f3f3f3;
+	font-size: 0.4rem;
+	color: #222222;
+}
+.imgagesAssessmentcontent .hugeTitle span:nth-of-type(2){
+	font-weight:bold;
+}
+.findMore{
+	background:url(../img/back_icon2@2x.png) no-repeat right center;       
+}
+.findMore2{
+	background:url(../img/back_icon2@2x.png) no-repeat right center;       
+}
+.hugeTitle .moreBtn{
+	float:right;
+	margin-right:0.53rem;
+	color:#999999;
+	font-size:0.347rem;
+}
+.hugeTitle .moreBtn2{
+	float:right;
+	margin-right:0.53rem;
+	color:#999999;
+	font-size:0.347rem;
+	text-align:right
+}
+.imgagesAssessmentcontent>p span{
+	font-size: 0.4rem;
+}
+.imgagesAssessmentcontent3{
+	border-bottom: 1px solid #f3f3f3;
+}
+.imgagesAssessmentcontent3 p{
+	margin-top: 0.27rem;
+	display: box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+}
+.imgagesAssessmentcontent3 p:last-of-type{
+	margin-bottom: 0.26rem;
+}
+.imgagesAssessmentcontent4{
+	margin-top: 0.35rem;	
+}
+.imgagesAssessmentcontent4 span{
+	margin-bottom: 1.34rem;
+	color: #222222;
+	font-size: 0.35rem;
+	border: none;
+	outline: none;
+	line-height: 0.48rem;
+	overflow:hidden;
+          text-overflow:ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;    
+           width:8.78rem
+}   
+.imgagesAssessmentcontent3 .imgagesAssessmentcontent3b{
+	color: #999999;
+	font-weight: normal;
+}
+.imgagesAssessmentcontent3 p span{
+	font-size: 0.35rem;
+	color: #222222;
+	display: block;
+}
+.imgagesAssessmentcontent3 p span:nth-of-type(1){
+	width: 4.8rem;
+}
+.imgagesAssessmentcontent3{
+	padding-bottom: 0.1px;
+}
+.imgagesAssessmentcontent3>img{
+	width:7.5rem ;
+	height: 8.9rem;
+	margin-top: 0.35rem;
+	margin-bottom: 0.35rem;
+}
+.imagesAssessment2_1 img{
+	width: 2rem;
+	height: 2rem;
+	margin-right:0.266rem;
+}
+.medicinalPicture img:nth-of-type(4){
+	margin-right:none;
+}
+.imagesAssessment2_1{
+	width: 100%;
+	height: 2rem;
+	/*display: box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;*/
+	margin: 0.35rem auto;	
+}
+.imagesAssessment3 .successBtn{
+
+	height: 1.17rem;
+	line-height: 1.17rem;
+	text-align: center;
+	font-size: 0.48rem;
+	color: #fff;
+	width: 8rem;
+	border-radius:0.27rem ;
+	margin: 0 auto;
+	background: #27B4ED;
+	text-indent: 0.15rem;
+	margin-bottom: 0.53rem;
+}
+.imagesAssessment6{
+	color: #aeaeae;
+	font-size: 0.267rem;
+	margin-top: 0.534rem;
+	line-height:0.467rem;
+	width:8.78rem;
+	text-align: center;
+}
+.medicalBrief{
+	width:8.78rem;
+	line-height:0.534rem;
+	color:#222222;
+	font-size:0.32rem;
+	resize:none;
+	border:0.014rem dashed #999999;
+	margin-top:0.267rem;
+	border-radius: 0.2rem;
+	padding:0.267rem;
+	height:2.134rem;
+}
+.medicinalPicture{
+
+	overflow:hidden;
+}
+.pictureBox{
+	width: 7.5rem;
+	margin: 0 0.42rem 0 0.92rem;
+}
+.pictureBox img{
+	width: 2rem;
+    height: 2rem;
+    float: left;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+
+
+
+
+
+

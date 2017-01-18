@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face { 
+  font-family: "冬青黑体"; 
+  src:url(../font/dongqingW3.ttf); 
+} 
+body{
+    background: #f8f8f8;
+    font-family: "冬青黑体";
+}
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+.patientDetail{
+
+    width:100%;
+    background:#ffffff;
+}
+.patientWrap{
+  display:block;
+}
+.patientContent{
+        margin-left:0.614rem;
+        height:1.2rem;
+        padding-top:0.4rem;
+        
+}
+.patientContent .circle{
+    width:0.13rem;
+    height:0.13rem;
+    border-radius:50%;
+    background:#27B4ED;
+    float:left;
+    margin-top:0.19rem;
+}
+.patientContent .patientName{
+          color:#222222;
+          font-size:0.35rem;
+          margin-left:0.4rem;
+}
+.patientContent .patientAge{
+          color:#999999;
+          font-size:0.33rem;
+
+}
+.patientContent .patientDate{
+    float:right;
+           margin-top:0.13rem;
+           margin-right:0.32rem;
+             font-size:0.32rem;
+    color:#aeaeae;
+}
+.patientWord{
+    margin-left:1.144rem;
+    height:1.334rem;
+    margin-right:0.8rem;
+}
+
+.illnessTitle{  
+    color:#37C5FF;
+    font-size:0.33rem;
+    font-weight:normal; 
+    display:inline;
+}
+.illnessDetail{
+    color:#666666;
+    font-size:0.32rem;
+    line-height:0.534rem;
+    width:8rem;
+    overflow:hidden;
+    text-overflow:ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;    
+}

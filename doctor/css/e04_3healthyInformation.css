@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face { 
+  font-family: "冬青黑体"; 
+  src:url(../font/dongqingW3.ttf); 
+} 
+body{
+    background: #f8f8f8;
+    font-family: "冬青黑体";
+}
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+.leftTitle,.inforDetails{
+    font-size:0.453rem;
+    color:#222222;
+    background:#ffffff;
+    height:1.3rem;
+    line-height:1.3rem
+}
+.wrap{
+    margin-left:0.32rem;
+    border-bottom:0.02rem solid #f8f8f8;
+}
+.inforMiddle .inforDetails{
+    display:block;
+    /*text-decoration: none;*/
+}
+.patientHeight,.patientWeight{
+     background: #ffffff url(../img/back_icon2@2x.png) no-repeat 9.48rem center;
+     text-decoration: none;
+     border:none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+     -webkit-tap-highlight-color:transparent;
+	outline:none;
+}
+.leftTitle .wrap .rightContent{
+     float:right;
+     margin-right:0.32rem;
+     font-size:0.4rem;
+     color:#666666;
+}
+.inforDetails .wrap .rightContent{
+     float:right;
+     margin-right:0.786rem;
+     font-size:0.4rem;
+     color:#666666;
+}
+.inforDetails .wrap .bmiData{
+   color:#27B4ED;
+   margin-right:0.32rem;
+}
+

@@ -1,0 +1,50 @@
+<title>患者信息</title>
+<div class="containerBox">
+	<div class="container1">
+		<div class="basicInfor">
+		         <div class="firstLine informationLine">
+		              <span class="contentHeader">姓名 :</span>
+		              <span class="contentFooter">{{data.realname}}</span>
+		         </div>
+		         <div class="firstLine">
+		                   <div class="leftPart">
+		                            <span class="contentHeader contentLeft">受教育水平 :</span>
+		                            <span class="contentFooter">{{data.educationname}}</span>
+		                   </div>
+		                    <div class="rightPart">
+		                            <span class="contentHeader contentRight">性别 :</span>
+		                            <span class="contentFooter">{{gender}}</span>
+		                   </div>
+		         </div>
+		         <div class="firstLine lastLine">
+		                     <div class="leftPart">
+		                            <span class="contentHeader contentLeft">出生日期 :</span>
+		                            <span class="contentFooter">{{birthday}}</span>
+		                   </div>
+		                    <div class="rightPart">
+		                            <span class="contentHeader contentRight">年龄 :</span>
+		                            <span class="contentFooter">{{data.currentage}}岁</span>
+		                   </div>
+		         </div>
+		</div>
+		<a href="#/healthyInformation"  class="healthyInfor medicalInformation">
+		     健康信息
+		</a>
+		<a href="#/medicalDetails"  class="healthyInfor medicalImage">
+		    病历影像
+		</a>
+		<a href="#/diagnoseDetails"  class="healthyInfor medicalRecords">
+		    就诊记录
+		</a>
+		<div class="deleteBtn">
+		    删 除 
+		</div>
+	 </div>
+	 <div class="container2">
+	 	 <div class="contain">
+	 	 	   	<p class="warm">温馨提示</p>
+	 	 	   	<p class="warmWord">数据删除后将不可恢复，是否确认删除</p>
+	 	 	   	<div class="warmBtn"><a href="#/patientManagement" ng-click="delete()" class="deleteBtn2">删除</a><span class="borderRight"></span><span class="backBtn">取消</span></div>
+	 	 </div>
+	 </div>
+</div>

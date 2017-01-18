@@ -1,0 +1,146 @@
+<title>我是医生</title>
+<div class="doctor_content"> 
+           <div class="largeBox">
+	<div class="doctor_information">
+		<div class="doctor_informationTop">
+			<a href="#/accountInformation" class="doctor_content_a1">
+				<img src="img/pho_icon2@2x.png" id="doctorPhoto">	
+			</a>
+			<div class="doctor_content_box1">
+			    <p class="doctor-contentP1">{{data.doctorname}}</p>
+			    <p class="doctor-contentP2">{{data.hospitalname}}</p>
+			    <p class="doctor-contentP2"><span class="first">{{data.sectionname}}</span><span>{{data.rankname}}</span></p>	
+			</div>
+		</div>
+		<div class="doctor_informationBottom">
+			 <a href="#/patientManagement" class="threeInformation">
+			 	 <span class="patientNumber" id="numberOne">{{amount.archicount}}</span>
+			 	 <span  class="patientInformation">患者管理</span>
+			 </a>
+			 <a href="#/myCollection" class="threeInformation">
+			 	 <span class="patientNumber" id="numberTwo">{{amount.favcount}}</span>
+			 	 <span  class="patientInformation">我的收藏</span>
+			 </a>
+			 <a href="#/medicalRecords" class="threeInformation theLast">
+			 	 <span class="patientNumber" id="numberThree">{{amount.visitcount}}</span>
+			 	 <span  class="patientInformation">门诊信息</span>
+			 </a>
+		</div>
+	</div>
+	
+	<a  href="#/myCode" class="wxCode">
+			<img src="img/lALOkIdZWigo_40_40.png"/ class="codePhoto">我的二维码
+			<img src="img/back_icon2@2x.png" class="left firstLeft">
+	</a>
+	<div class="nowOperation">
+		<a class="currentService" href="#/todayMedical">
+			<img src="img/icon2@2x (2).png" class="outPainent">当日门诊
+			
+			<img src="img/back_icon2@2x.png" class="left">
+			<div class="more">更多</div>
+		</a>
+		<ul class="patientDetail">
+			
+		</ul>
+	</div>
+		<div class="professionalInfor">		
+		           <div class="currentService">
+				<img src="img/icon3@2x (2).png" class="outPainent">职业信息
+			</div>
+			<div class="detailInfor">
+				 <div class="hospital">
+				 	<img src="img/icon_4@2x (2).png" class="hospitalPhoto">
+				 	     <span class="what">医院</span>
+				          <span class="doctor_information1 doctorInfor">{{data.hospitalname}}</span>
+				          <div class="inforBottom"></div>
+				 </div>
+				 <div class="hospital">
+				 	 <img src="img/icon_5@2x (2).png" class="officePhoto hospitalPhoto">
+				 	 <span class="what">科室</span>
+				 	 <span class="doctor_information2 doctorInfor">{{data.sectionname}}</span>
+				 	  <div class="inforBottom"></div>
+				 </div>
+				 <div class="hospital"> 
+	                    <img src="img/icon_6@2x (2).png" class="hospitalPhoto">
+	                    <span class="what">职称</span>
+	                    <span class="doctor_information3 doctorInfor">{{data.rankname}}</span>
+	                    <div class="inforBottom"></div>
+				  </div>
+			</div>
+	           </div>
+         </div>
+	<div class="mask">
+		<div class="maskBox">
+			<div class="imgBox">手机绑定</div>
+			<div class="mobileNumber2">
+			         <div class="warningWindow1">
+			      	      <p class="warningWindowP">手机号错误</p>
+			         </div>
+				<div class="warningWindow2">
+				       <p class="warningWindowP">验证码错误</p>
+				      
+				</div>
+				 <div class="code"></div>
+			  <p style="margin-top:0.67rem;margin-bottom: 0.27rem;">
+			           <input type="tel" class="mobileNumberIpt2" placeholder="请输入手机号" maxlength="11" ng-model="telphone"/>
+			  </p>
+		        <p>
+				<input class="mobileNumberIpt3" placeholder="请输入短信验证码" maxlength="4" ng-model="code"/>
+				<input ng-click="testGetCode()" class="mobileNumberIpt4" readonly="readonly" value="点击获取" />
+			   </p>
+			</div>
+			<div ng-click="mobileSave()" class="binding">绑   定</div>
+			
+		</div>
+
+
+	</div>
+	<div class="mask1">
+	           <div class="maskBox1">
+			<p class="sorryWord">很抱歉</p>
+			<p class="sorryWord2">您上传的认证资料审核失败</p>
+			<div class="reason">
+				<img src="img/71305185350996025.png" class="reasonImg">
+				<span class="reasonWord">原因</span>
+			</div>	
+			<span class="upLoad">1.您上传的身份证不清晰，需要重新上传哦~</span>
+			<span class="upLoad">1.您上传的教师资格证书不清晰，需要重新上传哦~</span>
+			<span class="upLoad">1.您上传的其他证书证书不清晰，需要重新上传哦~</span>
+			<a href="#/basicInformation" class="newUpload" ng-click="newUpload()">重新上传</a>
+		</div>	
+	</div>
+	<div class="mask2">
+		<div class="maskBox2">
+			<p class="gao1">认证提示</p>
+			<p class="gao2">您的资格认证信息正在审核中，请耐心等候</p>
+			<a href="http://www.dianneidna.com/weixin/patient/index.html#/index" class="gao3">我想测试</a>
+		</div>
+	</div>
+	<div class="mask3">
+		<div class="maskBox3">
+			<p class="gao4">认证提示</p>
+			<div class="gao5">您还没有进行资格认证，请先上传相关资料完成认证</div>
+			<a href="#/basicInformation" class="gao6">前去认证</a>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

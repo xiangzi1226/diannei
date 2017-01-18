@@ -1,0 +1,84 @@
+<title>预诊表</title>
+<div class="imgagesAssessmentBox">
+    <div class="imgagesAssessment1">
+        <img src="img/dianneilogo.png"/>
+    </div>
+    <div class="imgagesAssessmentcontent">
+        <div class="imgagesAssessmentcontent1">
+            <h3>预诊表</h3>
+            <img src="img/E_icon2.png" class="heartImg" ng-click="reset()">
+            <img src="img/E_icon.png" class="heartImg2" ng-click="reset()">
+            <time>{{now}}</time>
+        </div>
+        <div class="imgagesAssessmentcontent2"></div>
+        <div class="findMore hugeTitle">
+        <span class="imgagesAssessmentcontent2_1"></span>
+        <span>个人信息</span>
+
+         
+        </div>
+        <div class="imgagesAssessmentcontent3">
+            <p><span><b class="imgagesAssessmentcontent3b">姓名：</b>{{data.realname}}</span><span><b class="imgagesAssessmentcontent3b">受教育水平：</b>{{data.educationname}}</span></p>
+            <p><span><b class="imgagesAssessmentcontent3b">关系：</b>{{data.relationname}}</span><span><b class="imgagesAssessmentcontent3b">年龄：</b>{{data.curentage}}</span></p>
+            <p><span><b class="imgagesAssessmentcontent3b">性别：</b>{{gender}}</span><span><b class="imgagesAssessmentcontent3b">出生日期：</b>{{birthday}}</span></p>
+        </div>
+        <div class="hugeTitle"><span class="imgagesAssessmentcontent2_1"></span><span>基本信息</span></div>
+            <div class="imgagesAssessmentcontent3">
+                <p><span><b class="imgagesAssessmentcontent3b">身高：</b>{{data.height}}cm</span><span><b class="imgagesAssessmentcontent3b">BMI：</b>{{data.bmi}}</span></p>
+                <p><span><b class="imgagesAssessmentcontent3b">体重：</b>{{data.height}}kg</span></p>
+            </div>
+         <div class="hugeTitle"><span class="imgagesAssessmentcontent2_1"></span><span>病史信息</span></div>
+            <div class="imgagesAssessmentcontent3">
+                <p><span style="width:100%;"><b class="imgagesAssessmentcontent3b" >是否患有慢性肺部疾病：</b>{{ok}}</span></p>
+                <p><span style="width:100%;"><b class="imgagesAssessmentcontent3b" >疾病名称：</b>
+                {{diseasename}}</span></p>
+                <p><span style="width:100%;"><b class="imgagesAssessmentcontent3b" >是否患有过其他癌症：</b>{{haha}}</span></p>
+                <p><span style="width:100%;"><b class="imgagesAssessmentcontent3b" >直系亲属是否患有或得过癌症：</b>{{hehe}}</span></p>
+            </div>
+        <div class="hugeTitle"><span class="imgagesAssessmentcontent2_1"></span><span>吸烟现状</span></div>
+            <div class="imgagesAssessmentcontent3">
+                <p><span><b class="imgagesAssessmentcontent3b">是否吸烟：</b>{{ha}}</span><span><b class="imgagesAssessmentcontent3b">是否戒烟：</b>{{he}}</span></p>
+                <p><span><b class="imgagesAssessmentcontent3b">吸烟时长：</b>{{data.smokinglength}}年</span><span><b class="imgagesAssessmentcontent3b">戒烟时长：</b>{{data.nosmokinglength}}年</span></p>
+                <p><span><b class="imgagesAssessmentcontent3b">日均吸烟量：</b>{{data.smokecountperday}}根/日</span></p>
+            </div>
+            <div class="nodeInformation">
+                     <div class="hugeTitle"><span class="imgagesAssessmentcontent2_1"></span><span>结节信息</span></div>
+                    <div class="imgagesAssessmentcontent3">
+                        <p><span><b class="imgagesAssessmentcontent3b">大小：</b>{{data.jjsize}}mm</span><span><b class="imgagesAssessmentcontent3b">数目：</b>{{data.count}}</span></p>
+                        <p><span><b class="imgagesAssessmentcontent3b">分页：</b>{{data.jjleaf}}</span><span><b class="imgagesAssessmentcontent3b">边缘毛刺：</b>{{data.jjburr}}</span></p>
+                        <p><span><b class="imgagesAssessmentcontent3b">类型：</b>{{data.jjtype}}</span><span><b class="imgagesAssessmentcontent3b">位置：</b>{{data.jjlocation}}</span></p>
+
+                    </div>
+            </div>
+            <div class="hugeTitle"><span class="imgagesAssessmentcontent2_1"></span><span>风险概率</span></div>
+
+                <!--雷达图---------------------------------------------------------------->
+
+			<div id="main" style="width:90%;height:5.3rem;margin-left:0.45rem"></div>
+						
+				
+					
+
+        <div class="findMore2 hugeTitle"><span class="imgagesAssessmentcontent2_1"></span>
+        <span>当前就诊病历</span>
+
+            <a href="#/medicalDetails" class="moreBtn2">更多</a>
+        </div>   
+        <div class="medicinalPicture">
+             <div class="pictureBox">
+             	   
+             </div>
+        </div>
+        <div class="hugeTitle" style="border-top: 1px solid #f3f3f3;"><span class="imgagesAssessmentcontent2_1"></span><span>病情概述</span></div>
+        <div class="imgagesAssessmentcontent4" style="font-size: 0.35rem;">
+            <span class="doctorBrife">{{data.doctorbrife}}</span>
+        </div>  
+        <div class="imagesAssessment3">
+            <div class="successBtn" ng-click="doctor()">就 诊</div>
+        </div>
+        <div class="imagesAssessment6">
+           *如果病人已完成线下就诊，请点击就诊按钮，以提示患者继续完善相关信息，方便下次继续就诊
+            
+        </div>
+    </div>
+</div>

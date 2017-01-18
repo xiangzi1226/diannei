@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face { 
+  font-family: "冬青黑体"; 
+  src:url(../font/dongqingW3.ttf); 
+} 
+body{
+	background: #f8f8f8;
+	font-family: "冬青黑体";
+}
+img{
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+
+.searchHospital{
+	height:1.334rem;
+	
+          border-bottom:0.014rem solid #f8f8f8;
+}
+.searchHospital .searchDetail{
+        background:#ffffff;
+        height:0.747rem;
+        width:8.454rem;
+        border-radius:0.2rem;
+        float:left;
+        margin-left:0.32rem;
+        margin-top:0.293rem;
+        padding-left:0.267rem;
+        padding-right:0.267rem;
+}
+.searchHospital .searchDetail .searchBigpic{
+       float:left;
+       margin-top:0.15rem;
+}
+
+.searchHospital .searchDetail .searchWord{
+    float:left;
+    font-size:0.32rem;
+    color:#999999;
+    border:none;
+    outline:none;
+    background:#ffffff;
+    margin-left:0.134rem;
+    margin-top:0.05rem;
+    height:0.68rem;
+    width:7rem;
+}
+.searchHospital .searchDetail .searchDelete{
+    float:right;
+    margin-top:0.15rem;
+}
+.searchHospital .searchDetail .searchDelete img,.searchHospital .searchDetail .searchBigpic img{
+    width:0.32rem;
+    height:0.32rem;
+
+}
+.searchHospital .searchCancel{
+    float:right;
+    font-size:0.347rem;
+    color:#27B4ED;
+    margin-right:0.32rem;
+    margin-top:0.43rem;
+}
+.addWrap{
+    height:1.334rem;
+    line-height:1.334rem;
+    background:#ffffff;
+    display:block;
+}
+.addWrap .addPhoto{
+    width:0.8rem;
+    height:0.8rem;
+    margin-left:0.32rem;
+    float:left;
+    margin-top:0.267rem;
+}
+.addWrap .addIntrodation{
+    font-size:0.4rem;
+    color:#222222;
+    margin-left:0.267rem;
+    /*padding-top:0.1rem;
+    padding-bottom: 0.1rem;
+    width:8.6rem;*/
+    float:left;
+}
+.letter .addItem{
+    border-bottom:0.014rem solid #F8F8F8;
+}
+.addWrap .description{
+    font-size:0.347rem;
+    color:#AEAEAE;
+     margin-left:0.267rem;
+
+}
+.addWrap .haha{
+      margin-left:0.4rem;
+      font-size:0.347rem;
+      color:#222222;
+}

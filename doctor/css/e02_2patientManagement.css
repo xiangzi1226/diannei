@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face { 
+  font-family: "冬青黑体"; 
+  src:url(../font/dongqingW3.ttf); 
+} 
+body{
+    width: 100%;
+    height: 100%;
+    background:#f8f8f8;
+}
+.box{
+  height: 200%;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+}
+ul,li{
+    list-style: none;
+}
+.searchHeader{
+    height:1.34rem;
+     padding-top:0.294rem;
+}
+.searchHeader .searchButton{
+    width:9.44rem;
+    height:0.747rem;
+    background:#ffffff;
+    display:block;
+    border-radius:0.2rem;
+   
+    margin-left:0.32rem;
+    line-height:0.747rem;
+}
+.searchHeader .searchButton .searchBigpic,.searchHeader .searchButton .searchWord{
+     float:left;
+     
+}
+.searchHeader .searchButton .searchWord{
+          
+          font-size:0.32rem;
+          color:#AEAEAE;
+          margin-left:0.134rem;
+}
+.searchHeader .searchButton .searchBigpic{
+    margin-top:0.22rem;
+    margin-left:4.3rem;
+    width:0.32rem;
+    height:0.32rem;
+}
+.addBox{
+    height:1.334rem;
+     line-height:1.334rem;
+    background:#ffffff;
+    display:block;
+}
+.addBox .addPhoto{
+    width:0.8rem;
+    height:0.8rem;
+    margin-left:0.32rem;
+    float:left;
+    margin-top:0.267rem;
+}
+.addBox .addTitle{
+    font-size:0.4rem;
+    color:#222222;
+    margin-left:0.267rem;
+}
+.FirstLetter{
+       line-height:0.534rem;
+       background:#f8f8f8;
+       padding-left:0.32rem;
+       color:#666666;
+       font-size:0.4rem;
+}
+
+.rightSidebar{
+    position:fixed;
+    width:0.347rem;
+    right:0.32rem;
+    z-index:10;
+    top:3.29rem;
+}
+.rightSidebar .bigPic{
+    width:0.346rem;
+    height:0.346rem;
+}
+.rightSidebar .searchLetter{
+    line-height:0.4rem;
+    font-size:0.267rem;
+    color:#666666;
+    width:0.347rem;
+    display:block;
+    padding-left:0.08rem;
+}
+.addNew{
+      font-size:0.4rem;
+    color:#222222;
+    margin-left:0.267rem;
+}
+.addWrap{
+    height:1.334rem;
+    background:#ffffff;
+    display:block;
+    line-height:1.334rem;
+}
+.addWrap .addPhoto{
+    width:0.8rem;
+    height:0.8rem;
+    margin-left:0.32rem;
+    float:left;
+    margin-top:0.267rem;
+}
+.addWrap .addIntrodation{
+    font-size:0.4rem;
+    color:#222222;
+    margin-left:0.267rem;
+    /*padding-top:0.1rem;
+    padding-bottom: 0.1rem;
+    width:8.6rem;*/
+    float:left;
+}
+.firstLetter{
+       height:0.534rem;
+       background:#f8f8f8;
+       padding-left:0.32rem;
+       color:#666666;
+       font-size:0.4rem;
+}
+.letter .addItem{
+    border-bottom:0.014rem solid #F8F8F8;
+}
+.addWrap .description{
+    font-size:0.347rem;
+    color:#AEAEAE;
+     margin-left:0.267rem;
+}

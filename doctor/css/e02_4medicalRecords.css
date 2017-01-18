@@ -1,0 +1,205 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+@font-face { 
+  font-family: "冬青黑体"; 
+  src:url(../font/dongqingW3.ttf); 
+} 
+body{
+	font-family: "冬青黑体";
+	background: #f8f8f8;
+}
+img{
+	border: none;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	/*display: block;*/
+}
+html,body{
+	width:100%;
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
+	background:#f9f9f9;
+}
+.medicalAmount{
+	height:2.667rem;
+	width:100%;
+	background:#27B4ED;
+}
+.medicalAmount .yearItem{
+	width:5rem;
+	margin-top:0.693rem;
+	height:1.974rem;
+	float:left;
+	font-size:0.48rem;
+	color:#ffffff;
+	text-align:center;
+}
+.medicalAmount .yearItem .yearTitle{
+	margin-top:0.693rem;
+}
+.medicalAmount .yearItem .yearTitle,.medicalAmount .yearItem .yearAmount{
+	line-height:0.72rem;
+}
+.medicalAmount .yearItem .yearAmount{
+	display:block;
+}
+.medicalAmount .mouthItem{
+	width:4.986rem;
+	float:right;
+	height:100%;
+	font-size:0.347rem;
+}
+.medicalAmount .mouthItem .detailAmount{
+	color:#27B4ED;
+	height:0.534rem;
+	background:#ffffff;
+	line-height:0.534rem;
+	border-radius:0.1rem;
+}
+.medicalAmount .mouthItem .amountNumber{
+	color:#ffffff;
+}
+.medicalAmount .mouthItem .detailInfor{
+       margin-left:1.28rem;
+       text-align:center;
+       width:2.267rem;
+}
+.medicalAmount .mouthItem .topItem{
+	margin-top:0.267rem;
+}
+.medicalAmount .mouthItem .bottomItem{
+	margin-top:0.213rem;
+}
+.medicalRecordst_content{
+	width:100%;
+}
+.medicalRecordst_content .recordTitle{
+	height:0.8rem;
+	background:#fff;
+	color:#222222;
+	font-size:0.4rem;
+	margin-left:0.32rem;
+	line-height:0.8rem;
+}
+.medicalRecordst_content .patientDetail .detailDate{
+	font-size:0.267rem;
+	height:0.534rem;
+	background:#f8f8f8;
+	line-height:0.534rem;
+	padding-left:0.32rem;
+	color:#999999;
+}
+.medicalRecordst_content{
+	background: #fff;
+	border-top:1px solid #e8e8e8;
+	border-bottom: 1px solid #CFF1F4;
+	margin-bottom: 0.26rem;
+}
+.medicalRecordst_content>p{
+	height: 1.07rem;
+	line-height: 1.07rem;
+	border-bottom: 1px solid #f3f3f3;
+	background: #f8f8f8;
+	padding-left: 0.32rem;
+	padding-right: 0.32rem;
+	font-size: 0.4rem;
+	color: #999999;	
+}
+.medicalRecordst_content1a{
+	display: box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	justify-content:flex-start;
+	-webkit-justify-content: flex-start;
+}
+.medicalRecordst_content1{
+	padding-left: 0.32rem;
+	padding-right: 0.32rem;
+	display: box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	justify-content:flex-start;
+	-webkit-justify-content: flex-start;
+	border-bottom: 1px solid #f3f3f3;
+	overflow: hidden;
+}
+.medicalRecordst_content1Box{
+	position: relative;
+	display: box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	justify-content:flex-start;
+	-webkit-justify-content: flex-start;
+}
+.medicalRecordst_content1 img{
+	margin-top: 0.53rem;
+	margin-right: 0.27rem;
+	border-radius: 50%;
+	width: 1.33rem;
+	height: 1.33rem;
+}
+.medicalRecordst_content1_1{
+	margin-top: 0.53rem;
+	flex-grow: 1;
+	-webkit-flex-flow: 1;
+}
+.medicalRecordst_content1_1>p{
+    font-size: 0.4rem;
+	color: #222222;
+}
+.medicalRecordst_content1_1>p:nth-of-type(2){
+	font-size: 0.32rem;
+	color: #666666;
+	width: 7.7rem;
+}
+.medicalRecordst_content1_1>p:nth-of-type(2) span{
+	color: #37c5ff;
+	font-size: 0.32rem;
+}
+.medicalRecordst_content1_1 p time{
+	
+	font-size: 0.32rem;
+	color: #999999;	
+}
+/*.patientBox{
+	width:10rem;
+	height:2rem;
+	position: relative;
+	overflow:hidden;
+}*/
+/*.patientItem{
+	width:12.67rem;
+	position: absolute;
+	left:0;
+	top:0;
+}*/
+/*.patientItem .patientWrap{
+	width:10rem;
+	 float:left;
+}*/
+/*.patientItem .medicalRecordstBtn{
+          float:left;
+	height: 100%;
+	width: 2.67rem;
+	color: #fff;
+	font-size: 0.48rem;
+	background:#ff3838;
+
+}*/
+.medicalRecordst_content1_1>span{
+	display: block;
+	font-size: 0.27rem;
+	color: #B2B2B2;	
+	margin-bottom: 0.1rem;
+	margin-top: 0.13rem;
+}

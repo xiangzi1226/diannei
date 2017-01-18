@@ -1,0 +1,24 @@
+<title>账号信息</title>
+<div class="accountInformationBox">	
+	<ul class="accountInformation_list1">
+		<li class="accountHeader"   ng-click="chooseImg()">
+		            头像
+			<img src={{data.avatar}} class="accountTouxiang"/>
+		</li>
+		<li class="accountNickname accountItem">
+		    姓名
+		     <span class="nickName informationItem">{{data.doctorname}}</span>
+		</li>
+		<li class="accountSex accountItem">
+		     性别
+		     <span class="sex informationItem">{{gender}}</span>
+		</li>
+	</ul>
+	<ul class="accountInformation_list2">
+		 <li class="accountPhone accountItem">
+		 	手机号
+		      <span class="phoneNumber informationItem">{{data.phone}}</span>
+		 </li>
+	</ul>
+	<a href="" class="saveBtn" ng-click="saveBtn()">保 存</a>
+</div>
